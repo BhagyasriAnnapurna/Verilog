@@ -17,8 +17,7 @@ module counter4b(clk,din,ld,rst,d);
 		end
 	end
 endmodule
-
-   
+  
 module counter4b_tb();
     reg clk,ld,rst; 
 	reg [3:0] din; 
@@ -31,7 +30,7 @@ module counter4b_tb();
 		ld<=0; 
 		clk<=0;	
 	  end	
-    endtask 
+        endtask 
 	task load_in(input [3:0]a); 
 	  begin 
 	    @(posedge clk) 
@@ -51,14 +50,11 @@ module counter4b_tb();
 	endtask 
 	initial 
 	  begin
-	    initialise; 
-		rst_tsk; 
-		din<=3'b000; 
-		load_in(3'b110); 
-		rst_tsk;
-		load_in(3'b011);
+	     initialise; 
+	     rst_tsk; 
+	     din<=3'b000; 
+	     load_in(3'b110); 
+	     rst_tsk;
+	     load_in(3'b011);
 	  end 
-endmodule   
-   
-   
-   
+endmodule 
