@@ -1,0 +1,28 @@
+Command line:
+   Asynch_counter_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50491
+
+Fri Sep 16 23:32:11 2022
+
+
+ Elaboration Time: 0.390625 sec
+
+ Current Memory Usage: 5658.95 Meg
+
+ Total Signals          : 30
+ Total Nets             : 23
+ Total Signal Drivers   : 15
+ Total Blocks           : 8
+ Total Primitive Blocks : 6
+ Total Processes        : 23
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 110
+
+ Total Simulation Time: 0.421875 sec
+
+ Current Memory Usage: 5187.07 Meg
+
+Fri Sep 16 23:33:11 2022
+

@@ -1,0 +1,10 @@
+[Inputs]
+clk
+rst
+T
+[Outputs]
+q
+[BiDir]
+[ATTRIBUTES]
+VeriModel T_FF
+

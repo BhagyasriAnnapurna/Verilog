@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Bhagya Anil/OneDrive/Desktop/Verilog/Asynch_counter/Asynch_counter_tb_isim_beh.exe" -prj "C:/Users/Bhagya Anil/OneDrive/Desktop/Verilog/Asynch_counter/Asynch_counter_tb_beh.prj" "work.Asynch_counter_tb" "work.glbl" 

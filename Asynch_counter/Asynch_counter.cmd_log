@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Bhagya Anil/OneDrive/Desktop/Verilog/Asynch_counter/Asynch_counter.xst" -ofn "C:/Users/Bhagya Anil/OneDrive/Desktop/Verilog/Asynch_counter/Asynch_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Asynch_counter.ngc" Asynch_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Asynch_counter_map.ncd Asynch_counter.ngd Asynch_counter.pcf 
+par -w -intstyle ise -ol high -mt off Asynch_counter_map.ncd Asynch_counter.ncd Asynch_counter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Asynch_counter.twx Asynch_counter.ncd -o Asynch_counter.twr Asynch_counter.pcf 
