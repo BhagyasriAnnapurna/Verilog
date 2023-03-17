@@ -1,0 +1,28 @@
+Command line:
+   truedp_ram_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52235
+
+Sun Oct 02 13:31:31 2022
+
+
+ Elaboration Time: 0.25 sec
+
+ Current Memory Usage: 5659.48 Meg
+
+ Total Signals          : 22
+ Total Nets             : 42
+ Total Signal Drivers   : 7
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 266
+
+ Total Simulation Time: 0.265625 sec
+
+ Current Memory Usage: 5659.48 Meg
+
+Sun Oct 02 13:31:36 2022
+

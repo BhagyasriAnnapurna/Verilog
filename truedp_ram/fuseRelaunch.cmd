@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Bhagya Anil/OneDrive/Desktop/Verilog/truedp_ram/truedp_ram_tb_isim_beh.exe" -prj "C:/Users/Bhagya Anil/OneDrive/Desktop/Verilog/truedp_ram/truedp_ram_tb_beh.prj" "work.truedp_ram_tb" "work.glbl" 
