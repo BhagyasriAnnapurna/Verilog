@@ -1,2 +1,0 @@
-vhdtdtfi -lib work {C:/Users/Bhagya Anil/OneDrive/Desktop/Verilog/Asynch_counter/Asynch_counter.v} -lang verilog -prj Asynch_counter -o T_FF.spl -module T_FF -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family artix7 T_FF.spl {C:/Users/Bhagya Anil/OneDrive/Desktop/Verilog/Asynch_counter/T_FF.sym} 
